@@ -1,21 +1,10 @@
 # 📅 Sistema de Gestión de Turnos
 
-Aplicación web completa para agendar, visualizar y cancelar turnos. Cuenta con un frontend en **React** y un backend en **Express + TypeScript + PostgreSQL**.
+Aplicación web completa para agendar, visualizar y cancelar turnos. Cuenta con un frontend en **React** y un backend en **Express + TypeScript + PostgreSQL**. Fue desarrollado como parte del **Módulo 3** del bootcampt de Desarrollo Web Full Stack.
 
 ---
 
-## 🧠 Descripción
-
-Este sistema permite a los usuarios registrarse, iniciar sesión y gestionar sus turnos de manera intuitiva. Fue desarrollado como parte del **Módulo 3** del curso de desarrollo web.
-
----
-
-## ✨ Funcionalidades
-
-### 🔐 Autenticación de Usuarios
-- Registro con nombre, correo, DNI, fecha de nacimiento, nombre de usuario y contraseña.
-- Login con usuario y contraseña.
-- Acceso restringido a funciones según estado de sesión.
+## 🖥️ Funcionalidades
 
 ### 📆 Gestión de Turnos
 - Agenda de turnos con fechas y horarios dentro del rango laboral (8:00 a 18:00).
@@ -23,12 +12,9 @@ Este sistema permite a los usuarios registrarse, iniciar sesión y gestionar sus
 - Vista de todos los turnos reservados.
 - Cancelación de turnos hasta 1 día antes.
 
-### 📣 Notificaciones (próximamente)
-- Confirmaciones por email al registrar, agendar o cancelar turnos.
-
 ---
 
-## 🧰 Tecnologías Utilizadas
+## 🔑 Tecnologías
 
 ### Frontend
 - React
@@ -46,6 +32,19 @@ Este sistema permite a los usuarios registrarse, iniciar sesión y gestionar sus
 
 ---
 
-## 🗂️ Estructura del Proyecto
+## 🚀 Instalación local
 
-### 📁 Frontend (`vite-project`)
+### Frontend
+
+```bash
+cd vite-project
+npm install
+npm run dev
+```
+
+### Backend
+```bash
+cd back
+cp .env.example .env # Editá tus variables de entorno
+npm install
+npm start
