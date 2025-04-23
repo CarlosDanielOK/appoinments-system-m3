@@ -1,0 +1,60 @@
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    margin: 12px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1), 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardContainer:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.status {
+    font-size: 0.9rem;
+    color: #666;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 4px 8px;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+
+.info {
+    font-size: 1rem;
+    color: #444;
+    margin-top: 6px;
+}
+
+.infoLabel {
+    font-weight: bold;
+    color: #222;
+}
+
+.statusActive {
+    color: #fff;
+    background-color: #28a745;
+}
+
+.statusCancelled {
+    color: #fff;
+    background-color: #dc3545;
+}

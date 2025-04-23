@@ -1,0 +1,54 @@
+USER STORIES
+
+1. Autenticación de usuarios:
+  a. Como usuario, quiero poder registrarme e iniciar sesión en la plataforma para poder reservar un turno, de modo que mi identidad esté verificada.
+  b. Criterios de aceptación:
+    - El usuario debe poder registrarse proporcionando un correo electrónico y una contraseña.
+    - El sistema debe autenticar usuarios mediante el correo y contraseña.
+    - El usuario no podrá reservar un turno sin estar autenticado.
+
+2. Reserva de turno:
+  a. Como usuario autenticado, quiero poder agendar un turno en una fecha y hora específicas dentro del horario de atención (8am-6pm), para poder ser atendido en la universidad.
+  b. Criterios de aceptación:
+    - El usuario solo puede seleccionar horarios entre 8am y 6pm, excluyendo fines de semana.
+    - Si intenta agendar un turno fuera de esos días u horas, se mostrará un mensaje de error.
+
+3. Visualización de turnos reservados:
+  a. Como usuario autenticado, quiero ver un listado de mis turnos reservados, para poder gestionar mis citas.
+  b. Criterios de aceptación:
+    - El usuario debe poder ver una lista de turnos futuros y pasados.
+    - Cada turno debe mostrar la fecha, hora y la opción de cancelarlo si aún es posible.
+
+4. Cancelación de turno:
+  a. Como usuario autenticado, quiero poder cancelar mi turno hasta un día antes de la fecha reservada, para liberar el espacio si no puedo asistir.
+  b. Criterios de aceptación:
+    - El usuario debe poder cancelar un turno hasta el día anterior a la cita.
+    - No podrá cancelar el turno el mismo día de la cita.
+    - Al cancelar, el turno desaparece de la lista de turnos futuros.
+
+5. Restricción de agendamiento para fines de semana:
+  a. Como usuario, quiero que los días de fin de semana no estén disponibles para agendar turnos, para que solo pueda reservar en días hábiles.
+  b. Criterios de aceptación:
+    - Los sábados y domingos no deben aparecer como opciones en el calendario de reserva.
+
+6. Envío de confirmación por correo electrónico al crear cuenta:
+  a. Como nuevo usuario, quiero recibir un correo de confirmación después de crear mi cuenta exitosamente, para tener la certeza de que mi registro fue completado.
+  b. Criterios de aceptación:
+    - El sistema debe enviar un correo de confirmación inmediatamente después de que el usuario complete el proceso de registro.
+    - El correo debe incluir un mensaje de bienvenida y confirmar que la cuenta ha sido creada correctamente.
+    - El correo debe ser enviado a la dirección proporcionada durante el registro.
+
+7. Envío de confirmación por correo electrónico:
+  a. Como usuario autenticado, quiero recibir un correo electrónico de confirmación después de reservar o cancelar un turno, para tener un registro de mis acciones.
+  b. Criterios de aceptación:
+    - El sistema debe enviar un correo de confirmación con los detalles del turno (fecha, hora) inmediatamente después de que el usuario reserve un turno.
+    - El sistema debe enviar un correo de confirmación cuando se cancele un turno, indicando que el turno ha sido eliminado.
+    - El correo debe ser enviado a la dirección asociada a la cuenta del usuario.
+
+8. Subir una foto de perfil:
+  a. Como usuario autenticado, quiero poder subir una foto de perfil en formatos comunes de imagen (.jpg, .png), para personalizar mi cuenta.
+  b. Criterios de aceptación:
+    - El usuario debe poder subir una imagen desde su dispositivo.
+    - La imagen debe ser válida en formato .jpg o .png.
+    - El sistema debe almacenar la imagen y mostrarla en el perfil del usuario.
+    - El sistema debe permitir al usuario actualizar o eliminar su foto de perfil en cualquier momento.

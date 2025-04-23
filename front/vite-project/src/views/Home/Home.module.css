@@ -1,0 +1,14 @@
+.contenedorBienvenida {
+    text-align: center;
+}
+
+.tituloBienvenida {
+    font-size: 3rem;
+    color: #333333;
+    font-weight: 600;
+}
+
+.textoBienvenida {
+    font-size: 2rem;
+    color: #555555;
+}

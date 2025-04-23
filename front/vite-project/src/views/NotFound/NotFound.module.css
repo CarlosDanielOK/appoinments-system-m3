@@ -1,0 +1,34 @@
+.errorContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f0f0;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.errorContainer h1 {
+    font-size: 6rem;
+    color: #ff4d4d;
+    margin: 0;
+}
+
+.errorContainer p {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 1rem 0;
+}
+
+.errorLink {
+    font-size: 1.2rem;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.errorLink:hover {
+    color: #0056b3;
+}
