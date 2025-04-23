@@ -44,6 +44,6 @@ npm run dev
 ### Backend
 ```bash
 cd back
-cp .env.example .env # Editá tus variables de entorno
+cd .env.example .env # Editá tus variables de entorno
 npm install
 npm start
