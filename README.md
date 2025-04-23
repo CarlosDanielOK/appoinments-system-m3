@@ -6,7 +6,6 @@ Aplicación web completa para agendar, visualizar y cancelar turnos. Cuenta con 
 
 ## 🖥️ Funcionalidades
 
-### 📆 Gestión de Turnos
 - Agenda de turnos con fechas y horarios dentro del rango laboral (8:00 a 18:00).
 - No se permiten turnos en fines de semana.
 - Vista de todos los turnos reservados.
